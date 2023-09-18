@@ -1,0 +1,264 @@
+.Home{
+    font-family: Montserrat;
+}
+.p1 img{
+    width: 100%;
+}
+.p1{
+    position: relative;
+}
+.p1_cnt{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    line-height: 1.6;
+}
+.p1_cnt p{
+    font-family: Cinzel;
+    font-size: 22px;
+}
+.p1_l{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.p1_l_l{
+    border: 1px solid white;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1_l_l a{
+    font-weight: 500;
+}
+.p1_cnt .base{
+    width: 24px;
+    translate: 0px 5px;
+}
+.p2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #5267ca;
+    padding: 20px 0;
+    margin-top: -5px;
+}
+.p2_m{
+    border: 1px solid white;
+    width: 20%;
+    padding: 10px;
+}
+.p2_m h4{
+    font-size: 18px;
+}
+.p3{
+    position: relative;
+    overflow: hidden;
+}
+.bg2{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.p3_m{
+    font-family: Cinzel;
+    position: relative;
+    top: 0%;
+    padding: 120px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.p3_m h5{
+    color: #878787;
+    font-size: 18px;
+    font-weight: 100;
+}
+.p3_m h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+.p3_m p{
+    font-size: 14px;
+    font-family: Montserrat;
+}
+.p3_l {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.p3_l_l {
+    background: linear-gradient(90deg,#5267ca,#5267ca);
+    border: 1px solid #5267ca;
+    color: #fff;
+    padding: 10px 32px;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+.p3_l_l_2{
+    border: 1px solid #ffffff;
+    color: #fff;
+    padding: 10px 32px;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+.p3_s_m {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+}
+.p3_s_s_m{
+    width: 30%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #5267ca;
+    border: 1px solid #5267ca;
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+}
+.p3_s_s_m img{
+    width: 100%;
+}
+.p3_s_s_m_cnt {
+    padding: 16px;
+}
+.bg3{
+    height: 45%;
+    position: absolute;
+    z-index: 1;
+}
+.p4{
+    position: relative;
+    overflow: hidden;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4_m{
+    width: 75%;
+    position: relative;
+    z-index: 2;
+}
+.p4_m h5 {
+    color: #878787;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Cinzel;
+}
+.p4_m_m_c{
+    list-style: 1.4;
+    padding: 30px 10px;
+    width: 50%;
+}
+.p4_m_m_c h2{
+    color: #9daeff;
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 200;
+}
+.bg4{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    left: 30%;
+}
+.ido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141a36;
+    padding: 90px 40px 40px;
+}
+.ido_h{
+    font-size: 60px;
+    font-family: Cinzel;
+}
+.ido_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ido_s_1{
+    width: 50%;
+    padding: 0 20px;
+    line-height: 1.4;
+}
+.ido_s_2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+.ido_s_2 h2{
+    font-size: 24px;
+    font-family: Cinzel;
+    font-weight: 400;
+}
+.ido_s_2 p{
+    font-size: 64px;
+    font-family: Cinzel;
+}
+.ido_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ido_s_12{
+    width: 50%;
+    text-align: center;
+}
+.ido_s_12 img{
+    width: 90%;
+}
+.ido_s_22{
+    width: 50%;
+    padding: 0 20px;
+    line-height: 1.4;
+}
+.ido_s_22 h4{
+    font-size: 18px;
+    font-family: Cinzel;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.ido_s_22 p{
+    font-weight: bold;
+}
+.ido_s_22 h5{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.note{
+    font-size: 12px;
+    font-weight: 100;
+}
+.cl1{
+    color: rgb(140, 82, 255);
+}
+
+@media (min-width: 1900px){
+    .p3_s_s_m{
+        width: 20%;
+    }
+}
