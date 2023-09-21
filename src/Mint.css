@@ -1,0 +1,122 @@
+.Mint{
+    padding-top: 80px;
+    background-image: url(./bg_mint.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 80px);
+    font-family: Montserrat;
+    overflow: hidden;
+    padding: 120px 40px 40px;
+}
+.M_h{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 20px;
+    
+}
+.M_h h2, .M_h h3{
+    font-family: Cinzel;
+    font-weight: 400;
+}
+.M_h h3{
+    font-size: 18px;
+}
+.M_h h2{
+    font-size: 30px;
+}
+.M_h p{
+    font-size: 16px;
+}
+.M_h .m_p_1{
+    font-weight: bolder;
+}
+.M_h .m_p_2{
+    font-weight: bolder;
+    color: #9daeff;
+    font-size: 24px;
+}
+.s_i_s{
+    position: relative;
+    max-width: 30%;
+    min-width: 260px;
+}
+.s_s_i_1{
+    position: absolute;
+    top: -7%;
+    z-index: 2;
+    left: 40%;
+    filter: drop-shadow(1px 0 0 #5267ca) drop-shadow(0 1px 0 #5267ca) drop-shadow(-1px 0 0 #5267ca) drop-shadow(0 -1px 0 #5267ca);
+}
+.s_h{
+    padding: 20px 0;
+}
+.s_s_i_1{
+    width: 50px;
+}
+.s_i_c{
+    background-color: #5267ca;
+    border: 1px solid #5267ca;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    height: 100%;
+    line-height: 21px;
+    position: relative;
+
+    /* overflow: hidden; */
+}
+.w_i_s{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w_i_s img{
+    width: 100%;
+}
+.s_i_c img:hover{
+    transform: scale(1.1);
+}
+.s_i_p{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 16px;
+    gap: 15px;
+}
+.s_i_p h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.s_i_p p{
+    font-size: 14px;
+}
+.s_i_t{
+    height: 1px;
+    width: 100%;
+    background-color: #9daeff;
+}
+.s_i {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.s_h h3{
+    font-size: 18px;
+    font-family: Cinzel;
+    font-weight: 400;
+}
+.space_2{
+    height: 10px;
+}
+.grow{
+    flex-grow: 1;
+}

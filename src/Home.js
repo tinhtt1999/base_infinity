@@ -4,18 +4,20 @@ import bg3 from './bg3.png';
 import bg4 from './bg4.svg';
 import base from './base.webp';
 import i1 from './1.png';
-import i2 from './2.png';
-import i3 from './3.png';
+import i2 from './1.png';
+import i3 from './1.png';
 import i4 from './4.webp';
 import i5 from './5.webp';
-import i6 from './6.webp';
+import i6 from './6.png';
 import './Home.css';
+import 'animate.css';
+
 function Home(){
     return(
         <div className="Home">
             <div className="p1">
                 <img src={bg} className="" alt=""/>
-                <div className="p1_cnt">
+                <div className="p1_cnt animate__animated animate__fadeInLeft">
                     <p>THE NATIVE COMMUNITY DRIVEN</p>
                     <p>LIQUIDITY LAYER ON BASE NETWORK <span><img src={base} className="base" alt=""/></span></p>
                     <div className="p1_l">
@@ -52,7 +54,7 @@ function Home(){
                 </div>
                 <div className="ido_1">
                     <div className="ido_s_1">
-                        NebulaDex's public sale is rooted in the principles of the fair launch model. This model epitomizes the ideals of transparent, equitable access, allowing users to acquire tokens without fretting over the typical price oscillations seen during token listings
+                        Base Infinity's public sale is rooted in the principles of the fair launch model. This model epitomizes the ideals of transparent, equitable access, allowing users to acquire tokens without fretting over the typical price oscillations seen during token listings
                     </div>
                     <div className="ido_s_2">
                         <h2>Ends in:</h2>
@@ -78,7 +80,7 @@ function Home(){
                         <p><span className="cl8"> 2%</span> Liquidity  <span className="note">(100%TGE)</span></p>
                         <p><span className="cl9">4.5%</span> Marketing  <span className="note">(10%TGE + 6m linear vesting)</span></p>
                         <p><span className="cl10"> 2%</span> Angel Round <span className="note">(24m linear vesting)</span></p>
-                        <h5>Participate in NebulaDEX Fair Launch IDO to acquire yours NEB tokens.</h5>
+                        <h5>Participate in Base Infinity Fair Launch IDO to acquire yours NEB tokens.</h5>
                         <div className="p3_l">
                         <div className="p3_l_l">
                             <a href="">Participate</a>
@@ -95,7 +97,7 @@ function Home(){
                 <div className="p3_m">
                     <h5>Gamification</h5>
                     <h3>Choose your fraction</h3>
-                    <p>On NebulaDex, each user have a choice to align with one of the three fractions</p>
+                    <p>On Base Infinity, each user have a choice to align with one of the three fractions</p>
                     <div className="p3_l">
                         <div className="p3_l_l">
                             <a href="">John now</a>
@@ -167,23 +169,23 @@ function Home(){
             </div>
             <div className="p4">
                 <div className="p4_m">
-                    <h5>The Competitive Edge of NebulaDex</h5>
+                    <h5>The Competitive Edge of Base Infinity</h5>
                     <div className="p4_m_m">
                         <div className="p4_m_m_c">
                             <h2>Unique ve(3,3) Tokenomics</h2>
-                            <p>As a result of Andre Cronje's NEB approaches the voting-escrow paradigm in a new way. Because NebulaDEX has an exponential decline built into its foundation, the token model will be viable for many years to come. By encouraging fee generation, the NEB model rewards loyal supporters and harmonizes stakeholder interests.</p>
+                            <p>As a result of Andre Cronje's NEB approaches the voting-escrow paradigm in a new way. Because Base Infinity has an exponential decline built into its foundation, the token model will be viable for many years to come. By encouraging fee generation, the NEB model rewards loyal supporters and harmonizes stakeholder interests.</p>
                         </div>
                         <div className="p4_m_m_c">
-                            <h2>Unique ve(3,3) Tokenomics</h2>
-                            <p>As a result of Andre Cronje's NEB approaches the voting-escrow paradigm in a new way. Because NebulaDEX has an exponential decline built into its foundation, the token model will be viable for many years to come. By encouraging fee generation, the NEB model rewards loyal supporters and harmonizes stakeholder interests.</p>
+                            <h2>Community-Owned Protocol</h2>
+                            <p>In the Base ecosystem, NebulaDEX will host a decentralized Fair Launch that welcome regular users and support protocols wanting to increase liquidity.</p>
                         </div>
                         <div className="p4_m_m_c">
-                            <h2>Unique ve(3,3) Tokenomics</h2>
-                            <p>As a result of Andre Cronje's NEB approaches the voting-escrow paradigm in a new way. Because NebulaDEX has an exponential decline built into its foundation, the token model will be viable for many years to come. By encouraging fee generation, the NEB model rewards loyal supporters and harmonizes stakeholder interests.</p>
+                            <h2>Affordable Hybrid AMM</h2>
+                            <p>NebulaDEX offers traders the benefit of low fee swaps and little slippage on tightly correlated assets, with default fees ranging from as low as 0.01% for correlated pools to 0.2% for volatile pools.</p>
                         </div>
                         <div className="p4_m_m_c">
-                            <h2>Unique ve(3,3) Tokenomics</h2>
-                            <p>As a result of Andre Cronje's NEB approaches the voting-escrow paradigm in a new way. Because NebulaDEX has an exponential decline built into its foundation, the token model will be viable for many years to come. By encouraging fee generation, the NEB model rewards loyal supporters and harmonizes stakeholder interests.</p>
+                            <h2>Gamification</h2>
+                            <p>NebulaDex takes user engagement to a whole new level by introducing elements of gamification into the world of decentralized finance. Users can choose from three fractions, each with its unique abilities and characteristics, and participate in exciting missions and challenges that not only provide a funny and engaging experience but also enhance their trading abilities.</p>
                         </div>
                     </div>
                 </div>

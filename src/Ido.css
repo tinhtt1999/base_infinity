@@ -1,0 +1,239 @@
+.Ido{
+    font-family: Montserrat;
+    background-image: url(./bg_ido.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ido_s{
+    padding: 120px 40px 40px;
+}
+.w_ido{
+    padding: 80px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.time_s {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cinzel;
+}
+.time_s h2{
+    font-weight: 300;
+    font-size: 30px;
+}
+.form_s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.form_s_s{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 16px;
+    flex-grow: 1;
+}
+.form_s_s:hover{
+    border: 1px solid rgba(255,255,255,1);
+}
+.form_i {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    width: 100%;
+}
+.bridge{
+    border: 1px solid #5267ca;
+    height: 24px;
+    padding: 3px 8px 0;
+    color: #5267ca;
+    font-weight: 700;
+}
+.bridge:hover{
+    background-color: #5267ca;
+    color: #fff;
+    cursor: pointer;
+}
+.form_bt{
+    width: 170px;
+    padding-left: 20px;
+}
+.deposit{
+    background: #626262;
+    color: #fff;
+    opacity: .5;
+    padding: 0 32px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat;
+    width: 100%;
+}
+.form_p p{
+    color: #878787;
+    font-size: 10px;
+    margin-top: 4px;
+}
+.ido_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+}
+.ido_info_h {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.ido_info_h h2{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'CINZEL';
+}
+.i_i_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.i_s_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    border: 1px solid #5267ca;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+    gap: 15px;
+}
+.i_s_h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.4;
+}
+.i_s_h h3{
+    font-size: 14px;
+    text-align: center;
+}
+.i_s_b button{
+    background: #626262;
+    color: #fff;
+    opacity: .5;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.i_i_2 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.i_s_2 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    border: 1px solid #5267ca;
+    overflow: hidden;
+}
+.i_s_2_h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+    border-bottom: 1px solid #5267ca;
+}
+.i_s_2_h svg{
+    height: 32px;
+    width: 32px;
+    fill: #5267ca;
+}
+.i_s_2_h h3{
+    font-size: 16px;
+}
+.i_s_2_c p{
+    font-size: 14px;
+}
+.i_s_2_c {
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.note_i{
+    background-color: #141a36;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 20px;
+    text-align: center;
+}
+.space{
+    display: none;
+}
+@media (min-width: 1900px){
+    .sale{
+        width: 45% !important;
+    }
+    .ido_info{
+        width: 60% !important;
+    }
+    .i_s_2{
+        width: 23% !important;
+    }
+    .space{
+        display: block;
+        height: 18px;
+    } 
+}
+@media (max-width: 900px){
+    .form_s{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .form_bt{
+        padding: 0;
+    }
+    .i_i_1{
+        flex-wrap: wrap;
+    }
+    .i_s_1 {
+        width: 100%;
+    }
+}
